@@ -1,0 +1,41 @@
+{
+  "name": "express-request-ajax-error",
+  "version": "1.0.0",
+  "description": "request-ajax error handler for express",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint **.js **/*.js",
+    "coverage": "istanbul cover node_modules/.bin/_mocha",
+    "cobertura": "istanbul report cobertura"
+  },
+  "devDependencies": {
+    "backbone": "^1.2.3",
+    "chai": "^3.3.0",
+    "express": "^4.13.3",
+    "istanbul": "^0.4.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.2.1",
+    "request-ajax": "^1.0.0",
+    "superagent": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tickaroo/express-request-ajax-error.git"
+  },
+  "keywords": [
+    "request",
+    "request-ajax",
+    "express",
+    "error"
+  ],
+  "author": "Anton Pawlik <anton.pawlik@gmail.com> (http://antpaw.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tickaroo/express-request-ajax-error/issues"
+  },
+  "homepage": "https://github.com/tickaroo/express-request-ajax-error#readme"
+}
