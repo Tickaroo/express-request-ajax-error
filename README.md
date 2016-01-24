@@ -15,7 +15,7 @@ have a similar example.
 
 ```javascript
 var express = require('express');
-var request = require('request');
+var ajax = require('request-ajax');
 var requestAjaxError = require('express-request-ajax-error');
 
 var app = express();
@@ -25,7 +25,8 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function(req, res, next){
-  request('/my_api', {
+  ajax({
+    url: 'http://my-api.com/test.json'
     // use as callback
     error: res.locals.apiError,
     success: function(){
