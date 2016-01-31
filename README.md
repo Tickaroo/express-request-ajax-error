@@ -1,4 +1,4 @@
-# express-request-ajax-error [![npm version](https://badge.fury.io/js/express-request-ajax-error.svg)](https://www.npmjs.com/package/express-request-ajax-error) [![Build Status](https://travis-ci.org/Tickaroo/express-request-ajax-error.svg?branch=master)](https://travis-ci.org/Tickaroo/express-request-ajax-error)
+# express-request-ajax-error [![npm version](https://badge.fury.io/js/express-request-ajax-error.svg)](https://www.npmjs.com/package/express-request-ajax-error) [![Build Status](https://travis-ci.org/Tickaroo/express-request-ajax-error.svg?branch=master)](https://travis-ci.org/Tickaroo/express-request-ajax-error) [![codecov.io](https://codecov.io/github/Tickaroo/express-request-ajax-error/coverage.svg?branch=master)](https://codecov.io/github/Tickaroo/express-request-ajax-error?branch=master)
 
 request-ajax error handler for express
 
