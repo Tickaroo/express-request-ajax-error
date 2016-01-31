@@ -9,8 +9,7 @@
   "scripts": {
     "test": "mocha",
     "lint": "jshint **.js **/*.js",
-    "coverage": "istanbul cover node_modules/.bin/_mocha",
-    "cobertura": "istanbul report cobertura"
+    "coverage": "istanbul cover node_modules/.bin/_mocha"
   },
   "devDependencies": {
     "backbone": "^1.2.3",
