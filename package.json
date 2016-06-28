@@ -12,16 +12,17 @@
     "coverage": "istanbul cover node_modules/.bin/_mocha"
   },
   "devDependencies": {
-    "backbone": "^1.2.3",
+    "backbone": "^1.3.3",
     "chai": "^3.5.0",
     "codecov.io": "^0.1.6",
-    "express": "^4.13.3",
-    "istanbul": "^0.4.0",
-    "jshint": "^2.9.1",
-    "lodash": "^4.1.0",
-    "mocha": "^2.4.5",
-    "request-ajax": "^1.0.6",
-    "superagent": "^1.7.2"
+    "express": "^4.14.0",
+    "istanbul": "^0.4.4",
+    "jshint": "^2.9.2",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "request": "^2.72.0",
+    "request-ajax": "^1.2.0",
+    "superagent": "^2.0.0"
   },
   "repository": {
     "type": "git",
